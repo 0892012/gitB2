@@ -25,5 +25,12 @@ public class Calctest {
 		Calc.mul(10,20);
 		assertEquals(200, Calc.getResult());
 	}
+	
+	@Test
+	public void divtest(){
+		GoodCalc Calc = new GoodCalc();
+		Calc.div(20, 2);
+		assertEquals(10, Calc.getResult());
+	}
 
 }
