@@ -20,10 +20,18 @@ public class Calctest {
 	}
 	
 	@Test
-	public void multest() {
+	public void divtest() {
 		GoodCalc Calc = new GoodCalc();
 		Calc.div(20,10);
 		assertEquals(2,Calc.getResult());
+	}
+	
+	@Test
+	public void multest()	
+	{
+		GoodCalc Calc = new GoodCalc();
+		Calc.mul(1, 20);
+		assertEquals(20, Calc.getResult());
 	}
 
 }
