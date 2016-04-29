@@ -16,7 +16,14 @@ public class Calctest {
 	public void subtest() {
 		GoodCalc Calc = new GoodCalc();
 		Calc.sub(10,20);
-		assertEquals(-10,Calc.getResult());
+		assertEquals(-10, Calc.getResult());
+	}
+	
+	@Test
+	public void multest() {
+		GoodCalc Calc = new GoodCalc();
+		Calc.mul(10,20);
+		assertEquals(200, Calc.getResult());
 	}
 
 }

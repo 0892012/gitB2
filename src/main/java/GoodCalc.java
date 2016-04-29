@@ -13,5 +13,9 @@ public class GoodCalc {
 		// TODO Auto-generated method stub
 		result = i-j;
 	}
+	public void mul(int i, int j) {
+		// TODO Auto-generated method stub
+		result= i*j;
+	}
 
 }
