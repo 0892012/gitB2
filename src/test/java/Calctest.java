@@ -18,5 +18,12 @@ public class Calctest {
 		Calc.sub(10,20);
 		assertEquals(-10,Calc.getResult());
 	}
+	
+	@Test
+	public void multest() {
+		GoodCalc Calc = new GoodCalc();
+		Calc.div(20,10);
+		assertEquals(2,Calc.getResult());
+	}
 
 }
