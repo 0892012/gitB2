@@ -17,5 +17,5 @@ public class GoodCalc {
 		// TODO Auto-generated method stub
 		result = i/j;
 	}
-
+//diff
 }
